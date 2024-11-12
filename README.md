@@ -2,6 +2,8 @@
 
 Este projeto foi feito como parte da lista 1 da matéria de Arquitetura de Software, e tem como objetivo demonstrar o uso de um padrão de design estrutural (Flyweight) e um padrão de design comportamental (Factory). O sistema permite criar, listar e gerenciar diferentes tipos de contatos, como Contato, Contato Profissional e Contato de Serviço.
 
+O padrão de design Factory foi feito para criar objetos sem especificar a classe deles. No nosso caso, foi criado uma fábrica para criar contatos, sem precisar explicitamente criar um objeto de cada classe de contato. Além disso, o padrão de design Flyweight foi usado para reduzir a quantidade de memória usada pelos objetos de contato (especificamente aqueles que aparecem varias vezes de maneira repetida em todo servidor, como prefixo de telefone e domínio de email).
+
 ## Funcionalidades
 
 -   **Adicionar Contatos**: Adicione novos contatos com informações como nome, telefone e email.
